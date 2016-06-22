@@ -21,6 +21,8 @@ baseurl:          ""
 encoding:         UTF-8
 exclude:          [assets/scss/]
 
+sass:
+  sass_dir: _sass
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
