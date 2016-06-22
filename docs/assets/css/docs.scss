@@ -25,6 +25,7 @@
 // Happy Bootstrapping!
 
 // Load Bootstrap
+//@import "/bootstrap/bootstrap.scss";
 
 // Local docs variables
 $bd-purple:         #563d7c;
@@ -38,30 +39,30 @@ $bd-warning:        #f0ad4e;
 $bd-info:           #5bc0de;
 
 // Load docs components
-@import "booticon";
-@import "nav";
-@import "masthead";
-@import "featurettes";
-@import "featured-sites";
-@import "ads";
-@import "content";
-@import "page-header";
-@import "skiplink";
-@import "sidebar";
-@import "footer";
-@import "component-examples";
-@import "responsive-tests";
-@import "buttons";
-@import "callouts";
-@import "examples";
-@import "team";
-@import "browser-bugs";
-@import "brand";
-@import "clipboard-js";
-
-// Load docs dependencies
-@import "syntax";
-@import "anchor";
-
-@import "CONFLICT";
+//@import "booticon";
+//@import "nav";
+//@import "masthead";
+//@import "featurettes";
+//@import "featured-sites";
+//@import "ads";
+//@import "content";
+//@import "page-header";
+//@import "skiplink";
+//@import "sidebar";
+//@import "footer";
+//@import "component-examples";
+//@import "responsive-tests";
+//@import "buttons";
+//@import "callouts";
+//@import "examples";
+//@import "team";
+//@import "browser-bugs";
+//@import "brand";
+//@import "clipboard-js";
+//
+//// Load docs dependencies
+//@import "syntax";
+//@import "anchor";
+//
+//@import "CONFLICT";
 
