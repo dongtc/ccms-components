@@ -50,8 +50,8 @@ redirect_from: "/components/"
 
 > Note  
 > 当angular内置的校验器够用时，不需要在表单上使用`validators`指令声明，直接用validator即可，且validator不需要做任何初始化。
->
-```html
+
+```
 <form>
 	<!-- 对该输入同时开启email/required/minlength 校验 -->
 	<input ng-model="app.userName" type="email" required minlength="3" validator>
