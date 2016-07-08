@@ -47,7 +47,7 @@ rvm use 2.3.0 --default --create
 gem install bundler
 
 # 在 CCMS_Components 项目根目录运行 bundler install 即可安装 Gemfile 指定的依赖（包括 jekyll）
-bundler install
+bundle install
 
 # 在 CCMS_Components 项目根目录运行文档服务，http://localhost:3001/docs/
 jekyll serve
